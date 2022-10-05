@@ -22,29 +22,40 @@
                     <li class="nav-link">
                         <a href="#home">
                           <span class="text nav-text">Home</span>
+                          <i class="fa-solid fa-house"></i></a>                   
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                           <span class="text nav-text">Projects</span>             
+                           <span class="text nav-text">Projects</span> 
+                           <i class="fa-solid fa-folder-open"></i>            
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                             <span class="text nav-text">About</span>             
+                             <span class="text nav-text">About</span>
+                             <i class="fa-solid fa-person"></i>             
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <span class="text nav-text">Contact</span>                 
+                            <span class="text nav-text">Contact</span> 
+                            <i class="fa-solid fa-message"></i>                
                         </a>
                     </li>
                 </ul>
             </div>     
         </div>
     </header>
+
+    <button id="toggle">
+        <i class="fa-solid fa-xmark cross-icon"></i>
+        <i class="fa-solid fa-burger burger-icon"></i>
+    </button>
+
+
 
   </section>
   <!-- End Header -->
@@ -57,7 +68,7 @@
         <h3>Hi,</h3>
         <h2>I'm Sarah<span> Mitchell</span>,</h2>
         <p class="js-container">
-          I am a <span>Web Developer</span>   
+          I am a <span class="type-writer-text"></span>   
         </p>
         <a href="#projects" type="button">Portfolio</a>
       </div>
@@ -109,10 +120,34 @@
         </div>
 
         <div class="col-right">
-          <h1 class="section-title-2">About Me</h1>
-          <div class="about-me-content">
-            <h2>Web Developer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid rem dicta voluptatibus ipsa ex, labore voluptatum maxime, modi eos in laboriosam porro placeat fuga possimus ratione? Atque delectus temporibus similique quam accusamus animi praesentium pariatur sequi ducimus provident officiis magni molestiae necessitatibus quo veniam aperiam, repudiandae voluptatibus quae. Nesciunt tempora veritatis nulla, quam tempore omnis nam odit deserunt dolorem quisquam illo aspernatur eos, pariatur natus possimus aut ratione placeat itaque amet, repellendus inventore? </p>            
+            <h1 class="section-title-2">About Me</h1>
+          
+          <div class="tabs-wrapper">
+            <ul class="nav-tabs">
+                <li class="tab active" data-target="#tab-me">Me</li>
+                <li class="tab" data-target="#tab-cv">CV</li>
+                <li class="tab" data-target="#tab-hobbies">Hobbies</li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-panel active" id="tab-me">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugiat inventore perferendis quos, at dolorum perspiciatis explicabo atque! Odio ea id eveniet numquam vero recusandae delectus eius, mollitia qui, quos aspernatur quam, fugiat necessitatibus autem non debitis voluptatum quibusdam quaerat?
+
+                    </p>
+                </div>
+                <div class="tab-panel" id="tab-cv">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum voluptatem blanditiis, consectetur suscipit ipsam natus sed sit doloremque hic? Id dicta eaque facilis temporibus possimus earum illum quae fugiat exercitationem laborum? Numquam a magni, illo saepe architecto adipisci eos praesentium!
+
+                    </p>
+                </div>
+                <div class="tab-panel" id="tab-hobbies">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nobis aliquam rerum dicta soluta reprehenderit id amet aut laborum dolores esse quae molestiae exercitationem officiis consectetur, ducimus deleniti, totam expedita corrupti beatae maiores! Quam velit vel optio minus sed ducimus!
+
+                    </p>
+                </div>
+            </div>
           </div>
         
         </div>
